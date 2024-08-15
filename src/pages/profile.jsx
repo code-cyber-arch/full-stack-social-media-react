@@ -188,7 +188,7 @@ const Profile = () => {
       {isPhotos && (
         <div>
           <Card>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-2 gap-4">
               <div className="shadow-md items-center h-28 flex rounded-sm overflow-hidden">
                 <img
                   className=""

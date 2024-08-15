@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import Profile from "./pages/profile";
 import SavedPostPages from "./pages/SavedPostPages";
+import NotificationPage from "./pages/NotificationPage";
+import LogIn from "./pages/LogIn";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           />
           <Route path="/profile/*" element={<Profile />} />
           <Route path="/saved" element={<SavedPostPages />} />
+          <Route path="/notifications" element={<NotificationPage />} />
+          <Route path="/login" element={<LogIn />} />
         </Routes>
       </div>
     </Router>
